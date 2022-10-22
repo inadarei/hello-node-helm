@@ -1,7 +1,7 @@
 # hellogo
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/hello-python-helm)](https://artifacthub.io/packages/search?repo=hello-python-helm)
 
-Tiny Containerized Hello App in Go for Kubernetes testing on Arm or Intel architectures.
+Tiny Containerized Hello App in Python for Kubernetes testing on Arm or Intel architectures.
 
 ## Requirements
 
