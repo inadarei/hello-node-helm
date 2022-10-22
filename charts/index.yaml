@@ -3,12 +3,12 @@ entries:
   ms-hello-python:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-22T12:52:01.289091-04:00"
+    created: "2022-10-22T12:55:02.661023-04:00"
     description: A hello world in Python
-    digest: 1ab19879b349d5bdd0007396a437b8e7180ae20f067385de95abbf9eed30e267
+    digest: 97a66584479dc060fba62d3678fe6ecff0690034f86019bedefdeac9897475b8
     name: ms-hello-python
     type: application
     urls:
-    - ms-hello-python-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-10-22T12:52:01.28847-04:00"
+    - ms-hello-python-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-10-22T12:55:02.660456-04:00"
