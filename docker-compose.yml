@@ -1,0 +1,15 @@
+version: "3.4"
+
+services:
+  ms-hello-python:
+    container_name: ms-hello-python
+    build:
+      context: .
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - 7701:7701
+    environment:
+      FLASK_ENV: development
+    command: gunicorn -b 0.0.0.0:7701 --reload -w 1 service:app

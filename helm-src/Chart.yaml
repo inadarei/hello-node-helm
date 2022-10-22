@@ -1,0 +1,7 @@
+apiVersion: v2
+name: ms-hello-python
+description: A hello world in Python
+type: application
+
+version: 0.1.0
+appVersion: "1.16.0"
