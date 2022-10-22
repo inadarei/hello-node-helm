@@ -1,4 +1,4 @@
-# Default values for ms-hello-web.
+# Default values for ms-hello-python.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -39,7 +39,7 @@ securityContext: {}
 service:
   type: LoadBalancer
   port: 80
-  targetPort: 9393
+  targetPort: 7701
   protocol: TCP
 
 ingress:
