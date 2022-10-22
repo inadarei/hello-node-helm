@@ -3,6 +3,12 @@ default: start logs
 service:=ms-hello-python
 project:=ms-workspace-demo
 
+
+.PHONY: helm-publish
+helm-publish:
+	helm pakage helm-src -d charts/
+	helm repo index charts/
+
 .PHONY: start
 start:
 	docker-compose -p ${project} up -d
